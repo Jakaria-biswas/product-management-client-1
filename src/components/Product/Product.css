@@ -1,0 +1,23 @@
+.product{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding:5px;
+   
+}
+.product h4{
+    top:0;
+    font-weight: 500;
+}
+.product-bottom-info{
+      display: grid;
+      grid-template-columns: 5fr 1fr 1fr;
+}
+
+.update, .delete{
+    cursor: pointer;
+}
+.update{
+    color:lightseagreen;
+}
+.delete{
+    color:brown;
+}

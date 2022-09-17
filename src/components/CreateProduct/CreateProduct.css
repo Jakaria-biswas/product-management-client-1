@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+.crete-product{
+    /* margin-left: 230px; */
+    margin-top: 100px;
+}
+.crete-product h2{
+    text-align: center;
+}
+.form-area{
+    display: flex;
+    justify-content: center;
+}
+form{
+      /* border: 1px solid gray; */
+      padding:10px;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.product-name{
+      
+}
+.product-name label{
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.product-name input{
+    width: 578px;
+    height: 25px;
+    margin-left: 20px;
+}
+.beside{
+    display: grid;
+    grid-template-columns: 325px 326px;
+    grid-gap:10px;
+}
+
+
+
+.category label{
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.category select{
+    width:240px;
+    height: 30px;
+    margin:10px 0px;
+}
+
+.quantity label{
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.quantity input{
+  width: 246px;
+  height: 25px;
+  margin:10px 0px;
+}
+
+.submit-btn{
+    text-align: center;
+}
+.submit-btn input{
+    width: 20%;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding:2px 0px;
+    cursor: pointer;
+}
